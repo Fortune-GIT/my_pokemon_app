@@ -1,0 +1,63 @@
+.detail-page {
+  padding: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.back-btn {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.tabs button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #eee;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  background: #007bff;
+  color: white;
+}
+
+.tab-content {
+  text-align: left;
+  max-width: 400px;
+  margin: auto;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.stat-row span {
+  width: 80px;
+}
+
+.bar {
+  flex: 1;
+  height: 10px;
+  background: #eee;
+  margin: 0 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.bar div {
+  height: 100%;
+  background: #4caf50;
+}

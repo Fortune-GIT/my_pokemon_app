@@ -1,0 +1,29 @@
+.home-page {
+  padding: 1.5rem;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.load-more {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
